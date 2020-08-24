@@ -28,7 +28,7 @@ function generateMnemonic(){
     return BIP39.generateMnemonic()
 }
 ```
-Not all strings of characters are valid mneomics for generating keys. You can check if a mnemonic is valid using
+Not all strings of characters are valid mnemonics for generating keys. You can check if a mnemonic is valid using
 ```javascript
 var isValid = BIP39.validateMnemonic("Enter your mnemonic here")
 // This will return false
